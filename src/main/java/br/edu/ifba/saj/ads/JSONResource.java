@@ -17,7 +17,6 @@ public class JSONResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<DTO> hello() {
-
         return List.of(
                 new DTO(UUID.randomUUID(), "Leandro"),
                 new DTO(UUID.randomUUID(), "Leandro2"));
